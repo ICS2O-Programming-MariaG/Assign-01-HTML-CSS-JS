@@ -1,13 +1,3 @@
-.grey {
-  text-align: center;
-  margin-top: 70px;
-  margin-left: 10%;
-  margin-right: 10%;
-  color: #4b986c;
-  background-color: #e1e1e1;
-  padding: 20px;
-}
-
 .paragraph {
   margin-left: 20%;
   margin-right: 20%;
@@ -16,17 +6,18 @@
 .yellow {
   background-color: #fef9A3;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
 .forest {
   position: relative;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 10%;
-  margin-bottom: 20px;
   width: 80%;
 }
 
@@ -40,4 +31,30 @@
   padding-bottom: 40px;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.grey {
+  background-color: #e1e1e1;
+  color: #4b986c;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+#list {
+  width: 40%;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.cyan {
+  background-color: #3fb4cc;
+  color: black;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  padding: 20px;
 }

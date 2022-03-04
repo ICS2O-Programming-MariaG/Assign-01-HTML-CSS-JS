@@ -52,9 +52,83 @@
           <p>Welcome to my website about climate change! I am very passionate about this topic, which is why I wanted to examine it a little more closely while coding for this assignment.</p>
         </div>
       </div>
+      <!-- Text organized into boxes (styled in css) -->
       <div class="yellow">
         <h3>So What is Climate Change?</h3>
-        <p class="paragraph">The word climate, in general, refers to </p>
+        <p class="paragraph">The word climate, in general, refers to the average weather pattern of an area. Climate change is the change in the world's average weather pattern that has begun to occur as a result of the emission of greenhouse gases. Learn more about climate change <a href="https://climate.nasa.gov/resources/global-warming-vs-climate-change/">here</a>.</p>
+      </div>
+      <div class="grey">
+        <h3>Why Does it Matter?</h3>
+        <p class="paragraph">
+          Climate change will have many negative effects on our environment and our lives. Below are some examples of the consequences of climate change. Please check off all the effects you have heard of before.
+        </p>
+        <!-- List with checkboxes -->
+        <ul id="list" class="demo-list-control mdl-list">
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              Wildfires
+            </span>
+            <span class="mdl-list__item-secondary-action">
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-1">
+                <input type="checkbox" id="list-checkbox-1" class="mdl-checkbox__input"/>
+              </label>
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              Drought
+            </span>
+            <span class="mdl-list__item-secondary-action">
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-2">
+                <input type="checkbox" id="list-checkbox-2" class="mdl-checkbox__input"/>
+              </label>
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              Flooding
+            </span>
+            <span class="mdl-list__item-secondary-action">
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-3">
+                <input type="checkbox" id="list-checkbox-3" class="mdl-checkbox__input"/>
+              </label>
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              More Frequent Severe Storms
+            </span>
+            <span class="mdl-list__item-secondary-action">
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-4">
+                <input type="checkbox" id="list-checkbox-4" class="mdl-checkbox__input"/>
+              </label>
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              Rising Sea Levels
+            </span>
+            <span class="mdl-list__item-secondary-action">
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-5">
+                <input type="checkbox" id="list-checkbox-5" class="mdl-checkbox__input"/>
+              </label>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <!-- More elements - more description to follow -->
+      <div class="cyan">
+        <h3>Personal Response</h3>
+        <p class="paragraph">Hearing about these effects can be overwhelming. Are you concerned about the effects climate change will have on your life?</p>
+        <!-- Radio button -->
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+          <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+          <span class="mdl-radio__label">Yes</span>
+        </label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+          <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+          <span class="mdl-radio__label">No</span>
+        </label>
       </div>
   </body>
 </html>
