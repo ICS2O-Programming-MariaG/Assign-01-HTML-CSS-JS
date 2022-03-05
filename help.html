@@ -22,6 +22,12 @@
   <body>
     <!-- More code for Google's MDL -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- JS code for alert to show when button clicked -->
+    <script>
+      function Button2Clicked() {
+        alert("Awesome! Climate change is a global problem that will affect everyone. Thanks for doing your part to educate yourself on the crisis. Have a great day!")
+      }
+    </script>
     <!-- Title at top of page -->
     <div class="mdl-layout mdl-js-layout">
       <header class="mdl-layout__header mdl-layout__header--scroll">
@@ -100,8 +106,47 @@
       </div>
       <div class="red">
         <h3>Mitigation: What You Can Do</h3>
-        
+        <p>Here are some examples of what you can do to combat climate change with mitigation:</p>
+        <ol>
+          <li>Bike or walk instead of driving</li>
+          <li>Reduce electricity consumption</li>
+          <li>Plant a tree or garden</li>
+          <li>Eat less red meat and dairy</li>
+          <li>Buy local</li>
+          <li>Look for eco-friendly products</li>
+        </ol>
       </div>
+    <div class="yellow">
+      <h3>Adaptation: What You Can Do</h3>
+      <p>Below are some examples of what you can do to fight climate change with adaptation:</p>
+      <ol>
+        <li>Plant a tree or garden</li>
+        <li>Clean out storm drains</li>
+        <li>Grade your lot sloped away from your house</li>
+        <li>Keep permeable ground in your yard</li>
+        <li>Trim dead brush away from your house</li>
+        <li>Plant drought-resistant plants</li>
+      </ol>
+      </div>
+      <div class="green">
+        <h3>Learn More</h3>
+        <p>There are many more examples of ways you can help limit and prevent the impacts of climate change. You could participate in a climate protest, for example. If you want to learn more about what you can do, <a href="https://www.un.org/actnow">click here.</a></p>
+      </div>
+      <div class="cyan">
+        <h3>Thank You!</h3>
+        <p>Thank you for visiting this website today! We hope you learned something new. If you did, please click the button below:</p>
+        <!-- Button from MDL -->
+        <button onclick="Button2Clicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Click me!
+        </button>
+      </div>
+      <!-- Links at the bottom of the page -->
+      <table id="table">
+        <tr>
+          <td><a href="./index.html">Home Page</a></td>
+          <td><a href="./actions.html">Second Page </a></td>
+        </tr>
+      </table>
     </div>
   </body>
 </html>
