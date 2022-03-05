@@ -5,8 +5,8 @@
 
 .yellow {
   background-color: #fef9A3;
+  color: #2f7594;
   text-align: center;
-  margin-top: 30px;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 30px;
@@ -35,7 +35,6 @@
 
 .grey {
   background-color: #e1e1e1;
-  color: #4b986c;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -49,12 +48,18 @@
   margin-left: 30%;
 }
 
-.cyan {
-  background-color: #3fb4cc;
+.orange {
+  background-color: #ffd084;
   color: black;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 30px;
+  margin-top: 30px;
   padding: 20px;
+}
+
+.table {
+  margin-left: 25%;
+  margin-bottom: 30px;
 }

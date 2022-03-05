@@ -25,7 +25,7 @@
     <!-- JS code for alert to show when button clicked -->
     <script>
       function ButtonClicked() {
-        alert("Visit the second page to learn about what Canada is doing. Visit the third page to learn about what you can do!")
+        alert("Visit the second page to learn about what Canada is doing to combat climate change. Visit the third page to learn about what you can do!")
       }
     </script>
     <!-- Title at top of page -->
@@ -53,7 +53,7 @@
         </div>
       </div>
       <!-- Text organized into boxes (styled in css) -->
-      <div class="yellow">
+      <div class="orange">
         <h3>So What is Climate Change?</h3>
         <p class="paragraph">The word climate, in general, refers to the average weather pattern of an area. Climate change is the change in the world's average weather pattern that has begun to occur as a result of the emission of greenhouse gases. Learn more about climate change <a href="https://climate.nasa.gov/resources/global-warming-vs-climate-change/">here</a>.</p>
       </div>
@@ -117,9 +117,9 @@
         </ul>
       </div>
       <!-- More elements - more description to follow -->
-      <div class="cyan">
+      <div class="yellow">
         <h3>Personal Response</h3>
-        <p class="paragraph">Hearing about these effects can be overwhelming. Are you concerned about the effects climate change will have on your life?</p>
+        <p class="paragraph">Hearing about these effects can be overwhelming. Are you concerned about the impact climate change will have on your life?</p>
         <!-- Radio button -->
         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
           <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1">
@@ -129,6 +129,33 @@
           <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
           <span class="mdl-radio__label">No</span>
         </label>
+        <p class="paragraph"><br>Please drag the slider below to show how worried you are.</p>
+        <!-- Table container to put text and a slider side by side -->
+        <center>
+          <table>
+            <tr>
+              <td>Not at all worried</td>
+              <td>
+                <!-- Default Slider From MDL-->
+                <input class="mdl-slider mdl-js-slider" type="range"
+    min="0" max="100" value="0" tabindex="0">
+              </td>
+              <td>Extremely worried</td>
+            </tr>
+          </table>
+        </center>
+        <p><br>Click the button below if you want to learn more!</p>
+        <!-- Accent-colored raised button with ripple -->
+        <button onclick="ButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Learn more!
+        </button>
       </div>
+      <!-- Table container to put two links side-by-side -->
+      <table class="table">
+        <tr>
+          <td><a href="./actions.html">Second Page</a></td>
+          <td><a href="./help.html">Third Page </a></td>
+        </tr>
+      </table>
   </body>
 </html>
