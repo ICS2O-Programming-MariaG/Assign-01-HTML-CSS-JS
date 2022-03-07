@@ -4,7 +4,7 @@
 }
 
 .yellow {
-  background-color: #fef9A3;
+  background-color: #fef9a3;
   color: #2f7594;
   text-align: center;
   margin-left: 10%;
@@ -26,7 +26,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 60%);
   padding-top: 40px;
   padding-bottom: 40px;
   padding-right: 20px;

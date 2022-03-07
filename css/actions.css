@@ -11,7 +11,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255,255,255,0.85);
+  background-color: rgba(255, 255, 255, 85%);
   padding-top: 40px;
   padding-bottom: 40px;
   padding-right: 20px;
@@ -36,7 +36,7 @@
 }
 
 .yellow {
-  background-color: #fef9A3;
+  background-color: #fef9a3;
   color: black;
   text-align: center;
   margin-left: 10%;
@@ -45,7 +45,7 @@
   padding: 20px;
 }
 
-#image {
+.image {
   width: 20%;
 }
 
